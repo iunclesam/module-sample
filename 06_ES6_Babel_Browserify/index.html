@@ -5,6 +5,14 @@
     <title>06_ES6_Babel_Browserify</title>
 </head>
 <body>
-<script type='text/javascript' src=''></script>
+<!--
+    1、安装babel-cli, babel-preset-es2015和browserify
+        npm install babel-cli browserify -g
+        npm install babel-preset-es2015 --save-dev
+    2、编译
+        babel js/src -d js/build
+        browserify js/build/main.js -o js/dist/bundle.js
+-->
+<script src='./js/dist/bundle.js' type='text/javascript'></script>
 </body>
 </html>
